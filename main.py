@@ -5,6 +5,7 @@ def encode(password):
     return ans
 
 def decode(password):
+    #Put decode function here
     pass
 
 
