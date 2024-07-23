@@ -10,7 +10,6 @@ def decode(password):
         ans += str(int(val) - 3)
     return ans
 
-
 def main():
     menu = "Menu\n" \
             "-------------\n" \
@@ -36,4 +35,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    #comment test
