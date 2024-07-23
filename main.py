@@ -5,8 +5,10 @@ def encode(password):
     return ans
 
 def decode(password):
-    #Put decode function here
-    pass
+    ans = ""
+    for val in password:
+        ans += str(int(val) - 3)
+    return ans
 
 
 def main():
